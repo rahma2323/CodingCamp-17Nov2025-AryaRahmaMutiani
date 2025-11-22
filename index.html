@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RaaCreative</title>
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header>
+      <nav class="navbar">
+        <!-- GREETING POPUP -->
+        <div id="greetModal" class="greet-modal">
+          <div class="greet-content">
+            <h3>Welcome!</h3>
+            <p>Before we start, what's your name?</p>
+            <input
+              type="text"
+              id="greetName"
+              placeholder="Enter your name..."
+            />
+            <button id="greetBtn">Continue</button>
+          </div>
+        </div>
+
+        <!-- LOGO -->
+        <div class="logo">
+          <div class="logo-box">R</div>
+          <span class="logo-text">RaaCreative</span>
+        </div>
+
+        <!-- Hamburger Button -->
+        <div class="menu-toggle" id="menuToggle">☰</div>
+        <ul id="menuList">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Our Profile</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#message">Message</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <img
+        src="https://i.pinimg.com/1200x/c6/16/82/c6168219fc3a8ba8a6ae5fee3ec964bc.jpg"
+        class="hero-img"
+      />
+      <div class="hero-content">
+        <h2 id="greeting">Welcome to RaaCreative Design</h2>
+        <p>Create modern design, branding, and digital experiences.</p>
+        <button class="btn">Learn More</button>
+      </div>
+    </section>
+
+    <!-- OUR PROFILE SECTION -->
+    <section id="about" class="profile">
+      <h2 class="section-title">Our Profile</h2>
+
+      <!-- Profile Card -->
+      <div class="profile-card">
+        <div class="profile-header">
+          <div class="main-photo">
+            <img src="assets/pictme.png" alt="Your Photo">
+          </div>
+          
+          <div class="profile-info">
+            <h3>Arya Rahma Mutiani</h3>
+            <div class="profile-role">Fresh Graduate | UI Designer & Web Developer</div>
+            <p class="profile-bio">
+              A fresh graduate in Computer Science with a strong passion for UI Design and Web Developer.
+I enjoy learning new things about programming and creating engaging, user-friendly digital experiences.
+I have also participated in the MSIB program with a focus on platform and web developer.
+            </p>
+            <div class="profile-tags">
+              <span class="tag">UI/UX Design</span>
+              <span class="tag">Web Developer</span>
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Figma</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Photo Gallery -->
+        <div class="photo-gallery">
+          <div class="gallery-item">
+            <img src="assets/pict1.jpg" alt="Coding">
+            <div class="gallery-caption">Coding Session</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/ui.jpeg" alt="Design">
+            <div class="gallery-caption">Design Work</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/pict4.jpeg" alt="Team">
+            <div class="gallery-caption">Learning Journey</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Company Info -->
+      <div class="company-card">
+        <h4>About RaaCreative Studio</h4>
+        <p>
+          RaaCreative Studio is a personal mini project I created to explore and develop my skills in UI/UX design and web development. The studio focuses on crafting simple, modern, and functional web designs.
+        </p>
+        <p>
+          Through RaaCreative Studio, I aim to continuously learn and grow while creating engaging digital experiences. Each project is an opportunity to experiment with new technologies and improve my design capabilities.
+        </p>
+
+        <div class="services-list">
+          <div class="service-item">Web Design</div>
+          <div class="service-item">UI/UX Design</div>
+          <div class="service-item">Landing Pages</div>
+          <div class="service-item">Responsive Design</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+    <section id="team" class="team">
+      <h2 class="section-title">Our Team</h2>
+      <div class="team-container">
+        <div class="team-card">
+          <div class="team-photo-wrapper">
+            <img
+              src="https://i.pinimg.com/736x/eb/76/a4/eb76a46ab920d056b02d203ca95e9a22.jpg"
+              class="team-photo"
+              alt="Shaka"
+            />
+          </div>
+          <h3>Shaka</h3>
+          <p class="role">Web Designer</p>
+          <p class="description">
+            Creative designer with 5+ years of experience crafting beautiful and
+            functional web interfaces. Passionate about minimalist design and
+            user experience.
+          </p>
+          <div class="team-social">
+            <a href="#" class="social-icon">📧</a>
+            <a href="#" class="social-icon">🔗</a>
+            <a href="#" class="social-icon">💼</a>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-photo-wrapper">
+            <img
+              src="https://i.pinimg.com/736x/8a/b4/8e/8ab48ee24a4e058c56ac63aa0d163273.jpg"
+              class="team-photo"
+              alt="Berlian"
+            />
+          </div>
+          <h3>Berlian</h3>
+          <p class="role">UI/UX Specialist</p>
+          <p class="description">
+            Expert in creating intuitive user experiences and stunning visual
+            designs. Focused on turning complex problems into simple, elegant
+            solutions.
+          </p>
+          <div class="team-social">
+            <a href="#" class="social-icon">📧</a>
+            <a href="#" class="social-icon">🔗</a>
+            <a href="#" class="social-icon">💼</a>
+          </div>
+        </div>
+
+        <div class="team-card">
+          <div class="team-photo-wrapper">
+            <img
+              src="https://i.pinimg.com/736x/6d/eb/86/6deb86e669d45537bb84933d55488b22.jpg"
+              class="team-photo"
+              alt="Angela"
+            />
+          </div>
+          <h3>Angela</h3>
+          <p class="role">Front-End Engineer</p>
+          <p class="description">
+            Skilled developer specializing in modern web technologies.
+            Transforms designs into responsive, high-performance websites with
+            clean code.
+          </p>
+          <div class="team-social">
+            <a href="#" class="social-icon">📧</a>
+            <a href="#" class="social-icon">🔗</a>
+            <a href="#" class="social-icon">💼</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MESSAGE SECTION -->
+    <section id="message" class="message">
+      <h2 class="section-title">Message Us</h2>
+
+      <div class="message-wrapper">
+        <!-- FORM INPUT -->
+        <form id="messageForm" class="msg-form">
+          <label>Name</label>
+          <input type="text" id="name" required />
+
+          <label>Email</label>
+          <input type="email" id="email" required />
+
+          <label>Phone Number</label>
+          <input type="tel" id="phone" required />
+
+          <label>Message</label>
+          <textarea id="userMessage" rows="4" required></textarea>
+
+          <button class="btn" type="submit">Send</button>
+        </form>
+
+        <!-- TESTIMONIALS LIST -->
+        <div class="testimonials-container">
+          <h3 style="color: #6b2eb8; margin-bottom: 20px">Testimonials</h3>
+          <div id="testimonialsList">
+            <p class="no-testimonials">
+              No testimonials yet. Be the first to leave a message!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POP-UP MODAL -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <h3>✓ Message Submitted Successfully!</h3>
+        <div id="modalContent"></div>
+        <button class="close-btn" onclick="closeModal()">Close</button>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>© 2025 RaaCreative Studio. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
